@@ -33,6 +33,9 @@ PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
 
+# Viper4fxAdd commentMore actions
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
